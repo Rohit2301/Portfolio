@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <!-- below we are doing normalisation/rese of file . i.e. the margins,padding etc. provided by chrome or any other
+        browser would be erased.. so that  our websites style remains same in every browser-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- linking font awseome for icons-->
+    <link rel="stylesheet" href="../css/Font/all.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/css.css">
+
+</head>
+
+
+
+<body>
+
+    <!-- ---------------- Navigation -------------------->
+    <section class="header">
+        <div class="logo">
+            <img class='img' src="../img/logo.png" alt="L">
+        </div>
+        <button class="nav_toggle" aria-label="navigation toggle">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_items"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_items"><a href="#services" class="nav_link">Service</a></li>
+                <li class="nav_items"><a href="#about" class="nav_link">AboutMe</a></li>
+                <li class="nav_items"><a href="#work" class="nav_link">My Work</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <!-- ---------------------Intro--------------------------- -->
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">Hi, I am <strong>Rohit Kumar</strong> </h1>
+        <p class="section_subtitle section_subtitle-intro">
+            Web Devloper
+        </p>
+        <img class="img_intro" src="../img/Dp.jpeg" alt="">
+    </section>
+
+
+    <!---------------------Servies-------------------->
+
+    <section class="my-services" id="services">
+        <h2 class="section_title section_title-service">What I do!</h2>
+        <!-- <div class="underscore"></div> -->
+        <div class="section_subtitle-service">
+            <div class="service1">
+                <h3 class="head">Dsa</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, facilis? Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Unde, rem.</p>
+            </div>
+            <div class="service2">
+                <h3 class="head">Android Development</h3>
+                <p>Lorem ipsum, Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, dolorum? dolor sit amet
+                    consectetur adipisicing elit. Impedit, facilis?</p>
+            </div>
+            <div class="service3">
+                <h3 class="head">Web Developemnt</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, facilis? Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Delectus, in? </p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- ------------------------------About Me------------------------- -->
+    <section class="about" id="about">
+        <h2 class="section_title section_title-about">Who I am</h2>
+        <h3 class="section_subtitle section_subtitle-about">Going for React, BYEEEE!!!!!</h3>
+        <img class="about-img" src="../img/7.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+            odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, commodi. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ipsum explicabo debitis iste asperiores tempora accusantium fuga a cum nam,
+            sint earum? Dolorum vero sed nesciunt amet consequuntur, dolores harum architecto!</p>
+        <div class="aboutme_body"></div>
+        <div class="aboutme_body"></div>
+    </section>
+
+
+
+    <!------------------------------My Work-------------------------->
+
+    <section class="my-work" id="work">
+        <h2 class="section_title section_title-work">My works</h2>
+        <p class="section_subtitle section_subtitle-work">Should see these for sure....</p>
+
+        <div class="portfolio">
+            <a href="#" class="portfolio-items">
+                <img src="../img/1.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/2.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/3.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/4.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/5.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/6.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/8.jpg" alt="">
+            </a>
+            <a href="#" class="portfolio-items">
+                <img src="../img/9.jpg" alt="">
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ----------------------footer------------------ -->
+
+    <section class="footer">
+        <a href="#" class="footer-links">rohit@gmail.com</a>
+
+        <ul class="footer-list">
+            <li class="footer-item"><a href="#" class="footer-link"><i class="fas fa-envelope"></i></a></li>
+            <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+            <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-github"></i></a></li>
+            <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+
+    </section>
+
+
+    <script src="../js/js.js"></script>
+
+</body>
+
+</html>
